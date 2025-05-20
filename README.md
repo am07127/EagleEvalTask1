@@ -13,7 +13,36 @@ This application provides an API endpoint that accepts CSV files, generates AI-p
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repo/csv-summarizer.git
-cd csv-summarizer
+git https://github.com/am07127/EagleEvalTask1
 ```
+
+### 2.  Create and Activate Virtual Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure environment variables
+
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+AWS_REGION=us-east-1
+```
+
+### 5. Configure your AWS Credentials using AWS CLI
+
+
+### 6. Run the app
+
+```bash
+uvicorn main:app --reload
+```
+
+
 
